@@ -52,7 +52,7 @@
   --max-width: 1200px;
   
   /* Typography System */
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-sans: 'Inter', 'Kantumruy Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-khmer: 'Kantumruy Pro', 'Noto Sans Khmer', -apple-system, BlinkMacSystemFont, sans-serif;
   --current-font: var(--font-sans);
   --line-height-base: 1.65;
@@ -436,14 +436,24 @@ textarea:focus-visible {
   justify-content: center;
   gap: 0.4rem;
   height: 38px;
-  padding: 0 0.75rem;
+  padding: 0 0.85rem;
   border-radius: var(--radius-md);
   background: var(--surface-alt);
   color: var(--text);
   border: 1px solid var(--border);
   font-size: 0.8125rem;
   font-weight: 600;
+  font-family: 'Inter', 'Kantumruy Pro', sans-serif;
+  line-height: 1.4;
+  white-space: nowrap;
   transition: all var(--transition-fast);
+}
+
+.lang-label {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.4;
+  font-family: 'Inter', 'Kantumruy Pro', sans-serif;
 }
 
 .theme-toggle-btn {
@@ -1491,6 +1501,7 @@ textarea:focus-visible {
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--primary-soft-border);
+  white-space: nowrap;
 }
 
 .project-actions {
