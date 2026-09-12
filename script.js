@@ -37,7 +37,7 @@
       hero_badge: "Appointed State Teacher • Regional Teacher Training Center (RTTC), Kandal",
       hero_greeting: "Hello, I am",
       hero_name: "RIN SITHPONG",
-      hero_role: "Lower Secondary Teacher (Math & Physics)",
+      hero_role: "Lower Secondary Teacher<br class='mobile-break'> (Math & Physics)",
       hero_intro: "Certified state teacher in Mathematics and Physics from Regional Teacher Training Center (RTTC), Kandal, continuing mathematics at CUS, and creator of <a href='https://kruhub-47766.firebaseapp.com/' target='_blank' rel='noopener noreferrer' class='inline-link'>KruHub</a>. Passionate about using AI and digital tools to help secondary students learn STEM with confidence, curiosity, and joy.",
       tag_kruhub: "Creator of KruHub (Firebase App)",
       tag_math_physics: "Math & Physics Specialist",
@@ -72,9 +72,9 @@
       info_location_lbl: "Location:",
       info_location_val: "Prek Ruessei, Ta Khmau, Kandal, Cambodia",
       info_degree_lbl: "Academic Focus:",
-      info_degree_val: "B.Math (CUS) • RTTC Kandal • Foundation Year (CADT Y1) • Bac II (Grade B)",
+      info_degree_val: "<span class='text-nowrap'>B.Math (CUS)</span> • <span class='text-nowrap'>RTTC Kandal</span><br><span class='text-nowrap'>Foundation Year (CADT Y1)</span> • <span class='text-nowrap'>Bac II (Grade B)</span>",
       info_languages_lbl: "Languages:",
-      info_languages_val: "Khmer (Native) • English (B2) • French (Bilingual Bac)",
+      info_languages_val: "<span class='text-nowrap'>Khmer (Native)</span> • <span class='text-nowrap'>English (B2)</span> • <span class='text-nowrap'>French (Bilingual Bac)</span>",
       info_interests_lbl: "Interests:",
       info_interests_val: "KruHub Web App, AI (Antigravity, Codex), STEM Education, GeoGebra",
       cred_title: "National Teaching License",
@@ -244,7 +244,7 @@
       hero_badge: "គ្រូបង្រៀនក្របខ័ណ្ឌរដ្ឋ • មជ្ឈមណ្ឌលគរុកោសល្យភូមិភាគខេត្តកណ្តាល",
       hero_greeting: "សួស្តី! ខ្ញុំបាទឈ្មោះ",
       hero_name: "រិន សិទ្ធិពង្ស",
-      hero_role: "គ្រូបង្រៀនកម្រិតអនុវិទ្យាល័យ ឯកទេសគណិតវិទ្យា និងរូបវិទ្យា",
+      hero_role: "គ្រូបង្រៀនកម្រិតអនុវិទ្យាល័យ<br class='mobile-break'> ឯកទេសគណិតវិទ្យា និងរូបវិទ្យា",
       hero_intro: "ខ្ញុំជាគ្រូបង្រៀនក្របខ័ណ្ឌរដ្ឋឯកទេស គណិតវិទ្យា និងរូបវិទ្យា បញ្ចប់ការបណ្តុះបណ្តាលពីមជ្ឈមណ្ឌលគរុកោសល្យភូមិភាគខេត្តកណ្តាល និងកំពុងបន្តរៀនបរិញ្ញាបត្រគណិតវិទ្យានៅ CUS។ ខ្ញុំជាអ្នកបង្កើតគេហទំព័រ <a href='https://kruhub-47766.firebaseapp.com/' target='_blank' rel='noopener noreferrer' class='inline-link'>KruHub</a> ដោយប្រើប្រាស់ AI ជួយសម្រួលដល់ការងារបង្រៀន ដើម្បីឱ្យការរៀនគណិត និងរូបវិទ្យាកាន់តែងាយយល់ និងសប្បាយរៀន។",
       tag_kruhub: "អ្នកបង្កើតគេហទំព័រ KruHub (Firebase App)",
       tag_math_physics: "ឯកទេសគណិត និងរូបវិទ្យា",
@@ -278,10 +278,10 @@
       info_school_val: "អនុវិទ្យាល័យដំណាក់ព្រីង ខេត្តកណ្តាល",
       info_location_lbl: "ទីលំនៅ:",
       info_location_val: "សង្កាត់ព្រែកឫស្សី ក្រុងតាខ្មៅ ខេត្តកណ្តាល",
-      info_degree_lbl: "កម្រិតវប្បធម៌:",
-      info_degree_val: "បរិញ្ញាបត្រគណិត (CUS) • គរុកោសល្យភូមិភាគ • ឆ្នាំមូលដ្ឋាន (CADT Y1) • បាក់ឌុប (និទ្ទេស B)",
+      info_degree_lbl: "កម្រិតសិក្សា:",
+      info_degree_val: "<span class='text-nowrap'>បរិញ្ញាបត្រគណិត (CUS)</span> • <span class='text-nowrap'>គរុកោសល្យភូមិភាគ</span><br><span class='text-nowrap'>ឆ្នាំមូលដ្ឋាន (CADT Y1)</span> • <span class='text-nowrap'>បាក់ឌុប (និទ្ទេស B)</span>",
       info_languages_lbl: "ភាសា:",
-      info_languages_val: "ខ្មែរ (កំណើត) • អង់គ្លេស (B2) • បារាំង (ថ្នាក់ពីរភាសា)",
+      info_languages_val: "<span class='text-nowrap'>ខ្មែរ (កំណើត)</span> • <span class='text-nowrap'>អង់គ្លេស (B2)</span> • <span class='text-nowrap'>បារាំង (ថ្នាក់ទ្វេភាសា)</span>",
       info_interests_lbl: "ចំណាប់អារម្មណ៍:",
       info_interests_val: "គេហទំព័រ KruHub, ការប្រើ AI (Antigravity, Codex), ការអប់រំ STEM, កម្មវិធី GeoGebra",
       cred_title: "គរុកោសល្យ និងក្របខ័ណ្ឌរដ្ឋ",
@@ -535,7 +535,7 @@
     translatables.forEach((el) => {
       const key = el.getAttribute('data-i18n');
       if (dictionary[key]) {
-        if (dictionary[key].includes('<a ') || dictionary[key].includes('<span ') || el.hasAttribute('data-i18n-html')) {
+        if (dictionary[key].includes('<') || el.hasAttribute('data-i18n-html')) {
           el.innerHTML = dictionary[key];
         } else {
           el.textContent = dictionary[key];

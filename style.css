@@ -760,6 +760,16 @@ textarea:focus-visible {
   color: var(--primary);
   line-height: 1.4;
   margin-bottom: 1.25rem;
+  text-wrap: balance;
+}
+
+.mobile-break {
+  display: none;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .hero-intro {
@@ -1043,6 +1053,7 @@ textarea:focus-visible {
 .info-value {
   color: var(--text);
   font-weight: 500;
+  line-height: 1.6;
 }
 
 /* Credentials Badge */
@@ -2185,8 +2196,13 @@ textarea:focus-visible {
 
   .hero-role {
     font-size: 1.1rem;
-    line-height: 1.4;
+    line-height: 1.45;
     margin-bottom: 1rem;
+    text-wrap: balance;
+  }
+
+  .mobile-break {
+    display: block;
   }
 
   .hero-intro {
