@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="simBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071b30"/>
+      <stop offset="50%" stop-color="#0a2e52"/>
+      <stop offset="100%" stop-color="#051c33"/>
+    </linearGradient>
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#simBg)"/>
+  <!-- Grid Lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="360"/>
+    <line x1="120" y1="0" x2="120" y2="360"/>
+    <line x1="180" y1="0" x2="180" y2="360"/>
+    <line x1="240" y1="0" x2="240" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="360" y1="0" x2="360" y2="360"/>
+    <line x1="420" y1="0" x2="420" y2="360"/>
+    <line x1="480" y1="0" x2="480" y2="360"/>
+    <line x1="540" y1="0" x2="540" y2="360"/>
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="180" x2="600" y2="180"/>
+    <line x1="0" y1="240" x2="600" y2="240"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+  </g>
+  <!-- Orbit & Physics Vectors -->
+  <circle cx="300" cy="180" r="110" fill="none" stroke="rgba(56,189,248,0.2)" stroke-width="1.5" stroke-dasharray="6,6"/>
+  <circle cx="300" cy="180" r="70" fill="none" stroke="rgba(129,140,248,0.25)" stroke-width="1.5"/>
+  <circle cx="300" cy="180" r="28" fill="#0284c7" opacity="0.3"/>
+  <circle cx="300" cy="180" r="14" fill="#38bdf8"/>
+  <!-- Orbiting particle -->
+  <circle cx="390" cy="120" r="8" fill="#f59e0b"/>
+  <!-- Tangent vector -->
+  <line x1="390" y1="120" x2="440" y2="85" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="440,85 432,87 436,95" fill="#f59e0b"/>
+  <!-- Harmonic Wave -->
+  <path d="M 60,260 Q 120,200 180,260 T 300,260 T 420,260 T 540,260" fill="none" stroke="url(#glowLine)" stroke-width="3"/>
+  <!-- Math Formula badges -->
+  <rect x="80" y="40" width="130" height="34" rx="8" fill="rgba(15,23,42,0.75)" stroke="rgba(56,189,248,0.3)" stroke-width="1"/>
+  <text x="145" y="62" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">F = m · a</text>
+  <rect x="410" y="280" width="130" height="34" rx="8" fill="rgba(15,23,42,0.75)" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
+  <text x="475" y="302" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#f59e0b" text-anchor="middle">v = λ · f</text>
+</svg>

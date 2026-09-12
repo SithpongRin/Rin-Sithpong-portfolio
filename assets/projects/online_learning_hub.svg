@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hubBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041f38"/>
+      <stop offset="50%" stop-color="#082b4c"/>
+      <stop offset="100%" stop-color="#051a30"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#hubBg)"/>
+  <!-- Laptop Outline -->
+  <rect x="130" y="70" width="340" height="200" rx="14" fill="#0f2942" stroke="rgba(56,189,248,0.4)" stroke-width="2"/>
+  <rect x="145" y="85" width="310" height="170" rx="8" fill="#071728"/>
+  <path d="M 80,270 L 520,270 C 525,270 530,275 528,280 L 515,288 C 513,290 510,290 508,290 L 92,290 C 90,290 87,290 85,288 L 72,280 C 70,275 75,270 80,270 Z" fill="#132e4d" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Video Grid inside screen -->
+  <rect x="160" y="100" width="135" height="70" rx="6" fill="#113354"/>
+  <!-- Teacher Silhouette / Vector inside main frame -->
+  <circle cx="227" cy="126" r="14" fill="#38bdf8"/>
+  <path d="M 210,154 C 210,144 244,144 244,154" fill="#38bdf8"/>
+  <!-- Student Grid Tiles -->
+  <rect x="305" y="100" width="65" height="33" rx="4" fill="#0d243c"/>
+  <circle cx="337" cy="113" r="7" fill="#64748b"/>
+  <rect x="380" y="100" width="65" height="33" rx="4" fill="#0d243c"/>
+  <circle cx="412" cy="113" r="7" fill="#64748b"/>
+  <rect x="305" y="137" width="65" height="33" rx="4" fill="#0d243c"/>
+  <circle cx="337" cy="150" r="7" fill="#64748b"/>
+  <rect x="380" y="137" width="65" height="33" rx="4" fill="#0d243c"/>
+  <circle cx="412" cy="150" r="7" fill="#64748b"/>
+  <!-- Telegram / Chat Bubble Mock at bottom of screen -->
+  <rect x="160" y="180" width="280" height="40" rx="6" fill="#092036" stroke="rgba(56,189,248,0.2)" stroke-width="1"/>
+  <circle cx="180" cy="200" r="8" fill="#0284c7"/>
+  <rect x="200" y="196" width="160" height="8" rx="4" fill="#94a3b8" opacity="0.6"/>
+  <!-- Connection Nodes -->
+  <circle cx="70" cy="130" r="6" fill="#f59e0b"/>
+  <line x1="76" y1="130" x2="130" y2="130" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="530" cy="170" r="6" fill="#38bdf8"/>
+  <line x1="470" y1="170" x2="524" y2="170" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,4"/>
+</svg>

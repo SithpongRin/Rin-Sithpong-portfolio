@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="anaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051c33"/>
+      <stop offset="50%" stop-color="#082b4c"/>
+      <stop offset="100%" stop-color="#071b30"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#anaBg)"/>
+  <!-- Dashboard Card Surface -->
+  <rect x="70" y="40" width="460" height="280" rx="14" fill="#0d253f" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <!-- Top Stats Row -->
+  <rect x="95" y="65" width="120" height="50" rx="8" fill="#133658"/>
+  <rect x="110" y="78" width="50" height="6" rx="3" fill="#64748b"/>
+  <rect x="110" y="92" width="70" height="12" rx="4" fill="#38bdf8"/>
+  
+  <rect x="235" y="65" width="120" height="50" rx="8" fill="#133658"/>
+  <rect x="250" y="78" width="50" height="6" rx="3" fill="#64748b"/>
+  <rect x="250" y="92" width="60" height="12" rx="4" fill="#10b981"/>
+  
+  <rect x="375" y="65" width="130" height="50" rx="8" fill="#133658"/>
+  <rect x="390" y="78" width="50" height="6" rx="3" fill="#64748b"/>
+  <rect x="390" y="92" width="80" height="12" rx="4" fill="#f59e0b"/>
+  
+  <!-- Bar Chart Base -->
+  <line x1="100" y1="270" x2="490" y2="270" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <line x1="100" y1="210" x2="490" y2="210" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="100" y1="150" x2="490" y2="150" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <!-- Chart Bars -->
+  <rect x="130" y="190" width="34" height="80" rx="4" fill="url(#barGrad)"/>
+  <rect x="190" y="160" width="34" height="110" rx="4" fill="url(#barGrad)"/>
+  <rect x="250" y="130" width="34" height="140" rx="4" fill="url(#barGrad)"/>
+  <rect x="310" y="150" width="34" height="120" rx="4" fill="url(#barGrad)"/>
+  <rect x="370" y="110" width="34" height="160" rx="4" fill="url(#barGrad)"/>
+  <rect x="430" y="140" width="34" height="130" rx="4" fill="url(#barGrad)"/>
+  
+  <!-- Trend Line -->
+  <path d="M 147,180 Q 207,150 267,125 T 387,105 T 447,130" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <circle cx="267" cy="125" r="4" fill="#f59e0b"/>
+  <circle cx="387" cy="105" r="4" fill="#f59e0b"/>
+</svg>
