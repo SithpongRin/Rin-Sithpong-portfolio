@@ -753,6 +753,22 @@ textarea:focus-visible {
   transform: translateY(-1px);
 }
 
+.hero-tag-highlight {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-soft);
+  font-weight: 600;
+}
+
+.hero-tag-highlight:hover {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .hero-tag-highlight:hover {
+  color: #0b0f19;
+}
+
 .hero-cta {
   display: flex;
   flex-wrap: wrap;
@@ -1396,6 +1412,20 @@ textarea:focus-visible {
   padding: 0.3rem 0.75rem;
   border-radius: var(--radius-full);
   letter-spacing: 0.02em;
+}
+
+.overlay-badge.badge-kruhub {
+  background: linear-gradient(135deg, #0284c7, #10b981);
+  color: #ffffff;
+}
+
+.project-card.highlight-project {
+  border-color: var(--primary-soft-border);
+  box-shadow: var(--shadow-md);
+}
+
+.project-card.highlight-project:hover {
+  border-color: var(--primary);
 }
 
 .project-body {

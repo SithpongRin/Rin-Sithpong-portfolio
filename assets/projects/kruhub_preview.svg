@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kruBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062238"/>
+      <stop offset="50%" stop-color="#08385c"/>
+      <stop offset="100%" stop-color="#041a2e"/>
+    </linearGradient>
+    <linearGradient id="kruBrandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#kruBg)"/>
+
+  <!-- Browser / App Window Mock -->
+  <rect x="40" y="30" width="520" height="300" rx="14" fill="#0c1f33" stroke="rgba(56,189,248,0.3)" stroke-width="1.5"/>
+  
+  <!-- App Title Bar -->
+  <rect x="40" y="30" width="520" height="42" rx="14" fill="#081726"/>
+  <rect x="40" y="60" width="520" height="12" fill="#081726"/>
+  <circle cx="64" cy="51" r="5" fill="#ef4444"/>
+  <circle cx="80" cy="51" r="5" fill="#f59e0b"/>
+  <circle cx="96" cy="51" r="5" fill="#10b981"/>
+  
+  <!-- URL Bar -->
+  <rect x="130" y="40" width="280" height="22" rx="6" fill="#0f2b47" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="270" y="55" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#38bdf8" text-anchor="middle">kruhub-47766.firebaseapp.com</text>
+
+  <!-- Left Sidebar Mock -->
+  <rect x="52" y="82" width="110" height="236" rx="8" fill="#0a1a2b"/>
+  <!-- KruHub Logo Mark in sidebar -->
+  <rect x="66" y="96" width="24" height="24" rx="6" fill="url(#kruBrandGrad)"/>
+  <text x="78" y="113" font-family="'Inter', sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">K</text>
+  <text x="96" y="112" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">KruHub</text>
+
+  <!-- Nav Items -->
+  <rect x="64" y="136" width="86" height="18" rx="4" fill="rgba(2,132,199,0.25)"/>
+  <text x="74" y="149" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#38bdf8">Dashboard</text>
+  <rect x="64" y="162" width="86" height="18" rx="4" fill="transparent"/>
+  <text x="74" y="175" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Students (បញ្ជីសិស្ស)</text>
+  <rect x="64" y="188" width="86" height="18" rx="4" fill="transparent"/>
+  <text x="74" y="201" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Attendance (វត្តមាន)</text>
+  <rect x="64" y="214" width="86" height="18" rx="4" fill="transparent"/>
+  <text x="74" y="227" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Scores (ពិន្ទុ)</text>
+  <rect x="64" y="240" width="86" height="18" rx="4" fill="transparent"/>
+  <text x="74" y="253" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Evaluation (ការវាយតម្លៃ)</text>
+
+  <!-- Main Content Dashboard -->
+  <!-- Stats Row -->
+  <rect x="174" y="86" width="112" height="48" rx="8" fill="#0e2a44" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="186" y="102" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Total Students</text>
+  <text x="186" y="122" font-family="'Inter', sans-serif" font-size="16" font-weight="800" fill="#38bdf8">148</text>
+
+  <rect x="296" y="86" width="112" height="48" rx="8" fill="#0e2a44" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="308" y="102" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Attendance Rate</text>
+  <text x="308" y="122" font-family="'Inter', sans-serif" font-size="16" font-weight="800" fill="#10b981">96.4%</text>
+
+  <rect x="418" y="86" width="130" height="48" rx="8" fill="#0e2a44" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="430" y="102" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#94a3b8">Average Score</text>
+  <text x="430" y="122" font-family="'Inter', sans-serif" font-size="16" font-weight="800" fill="#f59e0b">82.5 / 100</text>
+
+  <!-- Classroom Table Mock -->
+  <rect x="174" y="146" width="374" height="172" rx="8" fill="#0b2238" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- Table Header -->
+  <rect x="174" y="146" width="374" height="28" rx="8" fill="#081b2e"/>
+  <text x="190" y="164" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Student Name</text>
+  <text x="310" y="164" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Class</text>
+  <text x="375" y="164" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Attendance</text>
+  <text x="465" y="164" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Score / Status</text>
+
+  <!-- Row 1 -->
+  <line x1="174" y1="202" x2="548" y2="202" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="196" cy="188" r="8" fill="#0284c7"/>
+  <text x="212" y="192" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">Chan Sovan</text>
+  <text x="310" y="192" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#94a3b8">Grade 8A</text>
+  <rect x="375" y="182" width="46" height="16" rx="4" fill="rgba(16,185,129,0.2)"/>
+  <text x="398" y="194" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#10b981" text-anchor="middle">Present</text>
+  <text x="475" y="192" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#38bdf8">92 / 100</text>
+
+  <!-- Row 2 -->
+  <line x1="174" y1="238" x2="548" y2="238" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="196" cy="222" r="8" fill="#818cf8"/>
+  <text x="212" y="226" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">Keo Pisey</text>
+  <text x="310" y="226" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#94a3b8">Grade 8A</text>
+  <rect x="375" y="216" width="46" height="16" rx="4" fill="rgba(16,185,129,0.2)"/>
+  <text x="398" y="228" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#10b981" text-anchor="middle">Present</text>
+  <text x="475" y="226" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#38bdf8">88 / 100</text>
+
+  <!-- Row 3 -->
+  <line x1="174" y1="274" x2="548" y2="274" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="196" cy="256" r="8" fill="#f59e0b"/>
+  <text x="212" y="260" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">Long Vicheka</text>
+  <text x="310" y="260" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#94a3b8">Grade 8B</text>
+  <rect x="375" y="250" width="46" height="16" rx="4" fill="rgba(245,158,11,0.2)"/>
+  <text x="398" y="262" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#f59e0b" text-anchor="middle">Late</text>
+  <text x="475" y="260" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#38bdf8">79 / 100</text>
+
+  <!-- Floating Firebase & Web App Badge -->
+  <rect x="420" y="280" width="130" height="30" rx="6" fill="#ffca28" opacity="0.95"/>
+  <text x="485" y="300" font-family="'Inter', sans-serif" font-size="10" font-weight="800" fill="#000000" text-anchor="middle">Firebase App</text>
+</svg>
