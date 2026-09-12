@@ -897,14 +897,14 @@ textarea:focus-visible {
 }
 
 .badge-top-right {
-  top: 45%;
-  right: -28px;
+  bottom: 60px;
+  right: -32px;
   animation-delay: 0s;
 }
 
 .badge-bottom-left {
-  bottom: 20px;
-  left: -28px;
+  bottom: 15px;
+  left: -32px;
   animation-delay: 2s;
 }
 
