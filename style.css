@@ -832,10 +832,11 @@ textarea:focus-visible {
 .profile-card-wrapper {
   position: relative;
   width: 100%;
-  max-width: 380px;
+  max-width: 340px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 .profile-glow-ring {
@@ -880,43 +881,43 @@ textarea:focus-visible {
   transform: scale(1.02);
 }
 
-/* Floating Badges */
-.floating-badge {
-  position: absolute;
-  z-index: 3;
+/* Credential Badges Strictly Underneath the Photo */
+.profile-badges-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+  z-index: 2;
+}
+
+.profile-cred-card {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.55rem;
   background: var(--surface);
   border: 1px solid var(--border);
-  padding: 0.75rem 1rem;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  backdrop-filter: blur(10px);
-  animation: floatBadge 4s ease-in-out infinite alternate;
-}
-
-.badge-top-right {
-  bottom: 60px;
-  right: -32px;
-  animation-delay: 0s;
-}
-
-.badge-bottom-left {
-  bottom: 15px;
-  left: -32px;
-  animation-delay: 2s;
-}
-
-@keyframes floatBadge {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-8px); }
-}
-
-.floating-badge-icon {
-  width: 36px;
-  height: 36px;
+  padding: 0.65rem 0.8rem;
   border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.profile-cred-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+}
+
+[data-theme="dark"] .profile-cred-card {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.cred-card-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
   background: var(--primary-soft);
   color: var(--primary);
   display: flex;
@@ -925,21 +926,30 @@ textarea:focus-visible {
   flex-shrink: 0;
 }
 
-.floating-badge-text {
+.cred-card-text {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  text-align: left;
 }
 
-.floating-badge-text strong {
-  font-size: 0.8125rem;
+.cred-card-text strong {
+  font-size: 0.78rem;
   font-weight: 700;
   color: var(--text);
-  line-height: 1.2;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.floating-badge-text span {
-  font-size: 0.6875rem;
+.cred-card-text span {
+  font-size: 0.7rem;
   color: var(--text-secondary);
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* --------------------------------------------------------------------------
@@ -2212,6 +2222,7 @@ textarea:focus-visible {
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
+    gap: 0.85rem;
   }
 
   .profile-image-container {
@@ -2220,14 +2231,11 @@ textarea:focus-visible {
     max-width: 100%;
   }
 
-  .floating-badge {
-    position: static;
-    margin-top: 0.75rem;
+  .profile-badges-container {
     width: 100%;
-    max-width: 280px;
-    justify-content: flex-start;
-    padding: 0.6rem 0.85rem;
-    animation: none;
+    max-width: 260px;
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
   }
 
   .info-item {
