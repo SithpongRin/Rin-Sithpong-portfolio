@@ -2180,3 +2180,33 @@ textarea:focus-visible {
     animation: none !important;
   }
 }
+
+
+/* Inline Clickable Links */
+.inline-link {
+  color: var(--primary-light);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+  word-break: break-all;
+  cursor: pointer;
+}
+
+.inline-link:hover,
+.inline-link:focus-visible {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+[data-theme="dark"] .inline-link {
+  color: #38bdf8;
+  text-decoration-color: rgba(56, 189, 248, 0.5);
+}
+
+[data-theme="dark"] .inline-link:hover,
+[data-theme="dark"] .inline-link:focus-visible {
+  color: #7dd3fc;
+  text-decoration-color: #7dd3fc;
+}

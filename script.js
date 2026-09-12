@@ -38,7 +38,7 @@
       hero_greeting: "Hello, I am",
       hero_name: "RIN SITHPONG",
       hero_role: "Lower Secondary Teacher (Math & Physics)",
-      hero_intro: "Certified state teacher in Mathematics and Physics from Regional Teacher Training Center (RTTC), Kandal, continuing mathematics at CUS, and creator of the KruHub web app (https://kruhub-47766.firebaseapp.com/). Passionate about using AI and digital tools to help secondary students learn STEM with confidence, curiosity, and joy.",
+      hero_intro: "Certified state teacher in Mathematics and Physics from Regional Teacher Training Center (RTTC), Kandal, continuing mathematics at CUS, and creator of KruHub (<a href='https://kruhub-47766.firebaseapp.com/' target='_blank' rel='noopener noreferrer' class='inline-link'>https://kruhub-47766.firebaseapp.com/</a>). Passionate about using AI and digital tools to help secondary students learn STEM with confidence, curiosity, and joy.",
       tag_kruhub: "Creator of KruHub (Firebase App)",
       tag_math_physics: "Math & Physics Specialist",
       tag_digital_pedagogy: "Digital STEM Pedagogy",
@@ -55,7 +55,7 @@
       about_subtitle: "Background & Passion",
       about_title: "About Me",
       about_lead: "Transforming STEM Education Through Conceptual Clarity & Digital Innovation.",
-      about_p1: "I am Sithpong, a certified Lower Secondary Teacher in Mathematics and Physics, trained at Regional Teacher Training Center (RTTC), Kandal and officially appointed as a state educator to Damnak Pring Lower Secondary School in Ponhea Lueu, Kandal Province. Beyond classroom teaching, I created the KruHub web app (https://kruhub-47766.firebaseapp.com/) by leveraging AI tools to help educators manage rosters, attendance, and scores efficiently.",
+      about_p1: "I am Sithpong, a certified Lower Secondary Teacher in Mathematics and Physics, trained at Regional Teacher Training Center (RTTC), Kandal and officially appointed as a state educator to Damnak Pring Lower Secondary School in Ponhea Lueu, Kandal Province. Beyond classroom teaching, I created the KruHub web app (<a href='https://kruhub-47766.firebaseapp.com/' target='_blank' rel='noopener noreferrer' class='inline-link'>https://kruhub-47766.firebaseapp.com/</a>) by leveraging AI tools to help educators manage rosters, attendance, and scores efficiently.",
       about_p2: "In my teaching practice, I prioritize genuine student understanding above all else, encouraging active questions, reasoning, and practical problem-solving. By combining higher mathematics from CUS, foundational computing from CADT (Linear Algebra, Probability & Statistics, Discrete Mathematics, IT Essentials, and C Programming), and modern AI capabilities, I created the KruHub web app and regularly leverage digital tools to make secondary STEM lessons interactive, practical, and enjoyable for students.",
       about_p3: "With a multilingual foundation in Khmer, English (B2 level), and a French Bilingual Baccalaureate, I strive to inspire secondary students to develop critical thinking, problem-solving skills, and a genuine curiosity for scientific discovery.",
       about_btn_cv: "Download Official Resume",
@@ -245,7 +245,7 @@
       hero_greeting: "សួស្តី! ខ្ញុំបាទឈ្មោះ",
       hero_name: "រិន សិទ្ធិពង្ស",
       hero_role: "គ្រូបង្រៀនកម្រិតអនុវិទ្យាល័យ ឯកទេសគណិតវិទ្យា និងរូបវិទ្យា",
-      hero_intro: "ខ្ញុំជាគ្រូបង្រៀនក្របខ័ណ្ឌរដ្ឋឯកទេស គណិតវិទ្យា និងរូបវិទ្យា បញ្ចប់ការបណ្តុះបណ្តាលពីមជ្ឈមណ្ឌលគរុកោសល្យភូមិភាគខេត្តកណ្តាល និងកំពុងបន្តរៀនបរិញ្ញាបត្រគណិតវិទ្យានៅ CUS។ ខ្ញុំជាអ្នកបង្កើតគេហទំព័រ KruHub (https://kruhub-47766.firebaseapp.com/) ដោយប្រើប្រាស់ AI ជួយសម្រួលដល់ការងារបង្រៀន ដើម្បីឱ្យការរៀនគណិត និងរូបវិទ្យាកាន់តែងាយយល់ និងសប្បាយរៀន។",
+      hero_intro: "ខ្ញុំជាគ្រូបង្រៀនក្របខ័ណ្ឌរដ្ឋឯកទេស គណិតវិទ្យា និងរូបវិទ្យា បញ្ចប់ការបណ្តុះបណ្តាលពីមជ្ឈមណ្ឌលគរុកោសល្យភូមិភាគខេត្តកណ្តាល និងកំពុងបន្តរៀនបរិញ្ញាបត្រគណិតវិទ្យានៅ CUS។ ខ្ញុំជាអ្នកបង្កើតគេហទំព័រ KruHub (<a href='https://kruhub-47766.firebaseapp.com/' target='_blank' rel='noopener noreferrer' class='inline-link'>https://kruhub-47766.firebaseapp.com/</a>) ដោយប្រើប្រាស់ AI ជួយសម្រួលដល់ការងារបង្រៀន ដើម្បីឱ្យការរៀនគណិត និងរូបវិទ្យាកាន់តែងាយយល់ និងសប្បាយរៀន។",
       tag_kruhub: "អ្នកបង្កើតគេហទំព័រ KruHub (Firebase App)",
       tag_math_physics: "ឯកទេសគណិត និងរូបវិទ្យា",
       tag_digital_pedagogy: "គរុកោសល្យ និងបច្ចេកវិទ្យាអប់រំ",
@@ -262,7 +262,7 @@
       about_subtitle: "ប្រវត្តិ និងការងារ",
       about_title: "អំពីខ្ញុំ",
       about_lead: "បង្រៀនដោយយកចិត្តទុកដាក់លើការយល់ដឹងរបស់សិស្ស និងប្រើប្រាស់បច្ចេកវិទ្យាដើម្បីឱ្យមេរៀនងាយស្រួលយល់។",
-      about_p1: "ខ្ញុំឈ្មោះ រិន សិទ្ធិពង្ស ជាគ្រូបង្រៀនអនុវិទ្យាល័យ ឯកទេសគណិតវិទ្យា និងរូបវិទ្យា បញ្ចប់ការបណ្តុះបណ្តាលពីមជ្ឈមណ្ឌលគរុកោសល្យភូមិភាគខេត្តកណ្តាល ហើយបច្ចុប្បន្នជាគ្រូក្របខ័ណ្ឌរដ្ឋនៅអនុវិទ្យាល័យដំណាក់ព្រីង ស្រុកពញាឮ ខេត្តកណ្តាល។ ក្រៅពីការបង្រៀន ខ្ញុំបានប្រើ AI បង្កើតគេហទំព័រ KruHub (https://kruhub-47766.firebaseapp.com/) សម្រាប់ជួយសម្រួលដល់លោកគ្រូអ្នកគ្រូក្នុងការកត់វត្តមាន គ្រប់គ្រងពិន្ទុ និងការងារក្នុងថ្នាក់រៀនឱ្យកាន់តែលឿន។",
+      about_p1: "ខ្ញុំឈ្មោះ រិន សិទ្ធិពង្ស ជាគ្រូបង្រៀនអនុវិទ្យាល័យ ឯកទេសគណិតវិទ្យា និងរូបវិទ្យា បញ្ចប់ការបណ្តុះបណ្តាលពីមជ្ឈមណ្ឌលគរុកោសល្យភូមិភាគខេត្តកណ្តាល ហើយបច្ចុប្បន្នជាគ្រូក្របខ័ណ្ឌរដ្ឋនៅអនុវិទ្យាល័យដំណាក់ព្រីង ស្រុកពញាឮ ខេត្តកណ្តាល។ ក្រៅពីការបង្រៀន ខ្ញុំបានប្រើ AI បង្កើតគេហទំព័រ KruHub (<a href='https://kruhub-47766.firebaseapp.com/' target='_blank' rel='noopener noreferrer' class='inline-link'>https://kruhub-47766.firebaseapp.com/</a>) សម្រាប់ជួយសម្រួលដល់លោកគ្រូអ្នកគ្រូក្នុងការកត់វត្តមាន គ្រប់គ្រងពិន្ទុ និងការងារក្នុងថ្នាក់រៀនឱ្យកាន់តែលឿន។",
       about_p2: "ក្នុងការបង្រៀន ខ្ញុំតែងតែយកចិត្តទុកដាក់លើសិស្សជាចម្បង ដោយលើកទឹកចិត្តឱ្យពួកគាត់ហ៊ានសួរ ហ៊ានបញ្ចេញមតិ និងអនុវត្តផ្ទាល់។ តាមរយៈចំណេះដឹងគណិតវិទ្យានៅ CUS និងមុខវិជ្ជាដែលធ្លាប់រៀននៅ CADT (Linear Algebra, ស្ថិតិ, Discrete Math, កូដ C) រួមជាមួយការចេះប្រើប្រាស់ AI ខ្ញុំបានយកបច្ចេកវិទ្យាមកជួយបង្កើតសន្លឹកកិច្ចការ និងគំរូពិសោធន៍ ដើម្បីឱ្យសិស្សមើលឃើញរូបភាពច្បាស់ និងយល់ពីប្រភពនៃរូបមន្តនីមួយៗ។",
       about_p3: "ខ្ញុំអាចប្រើប្រាស់ភាសាខ្មែរ ភាសាអង់គ្លេស (កម្រិត B2) និងភាសាបារាំង (ដោយសារធ្លាប់រៀនថ្នាក់ពីរភាសាតាំងពីថ្នាក់ទី៧ រហូតដល់ចប់បាក់ឌុប)។ គោលបំណងរបស់ខ្ញុំ គឺចង់ឱ្យសិស្សស្រឡាញ់ការរៀនសូត្រ ហ៊ានគិត ហ៊ានដោះស្រាយលំហាត់ និងមានមូលដ្ឋានគ្រឹះរឹងមាំសម្រាប់ថ្ងៃអនាគត។",
       about_btn_cv: "ទាញយកប្រវត្តិរូបសង្ខេប",
@@ -535,7 +535,11 @@
     translatables.forEach((el) => {
       const key = el.getAttribute('data-i18n');
       if (dictionary[key]) {
-        el.textContent = dictionary[key];
+        if (dictionary[key].includes('<a ') || dictionary[key].includes('<span ') || el.hasAttribute('data-i18n-html')) {
+          el.innerHTML = dictionary[key];
+        } else {
+          el.textContent = dictionary[key];
+        }
       }
     });
 
