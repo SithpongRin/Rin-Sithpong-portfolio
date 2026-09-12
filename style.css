@@ -113,8 +113,19 @@ html[lang="km"] .timeline-role,
 html[lang="km"] .timeline-org,
 html[lang="km"] .project-title {
   font-family: var(--font-khmer);
-  line-height: 1.55;
+  line-height: 1.65;
   letter-spacing: 0.01em;
+}
+
+html[lang="km"] .hero-role {
+  line-height: 1.65;
+}
+
+html[lang="km"] .hero-intro,
+html[lang="km"] .about-paragraph,
+html[lang="km"] .timeline-desc,
+html[lang="km"] .project-description {
+  line-height: 1.85;
 }
 
 /* --------------------------------------------------------------------------
@@ -886,14 +897,14 @@ textarea:focus-visible {
 }
 
 .badge-top-right {
-  top: 15px;
-  right: -20px;
+  top: 45%;
+  right: -28px;
   animation-delay: 0s;
 }
 
 .badge-bottom-left {
-  bottom: 25px;
-  left: -20px;
+  bottom: 20px;
+  left: -28px;
   animation-delay: 2s;
 }
 
@@ -2343,7 +2354,9 @@ textarea:focus-visible {
   text-decoration-thickness: 1.5px;
   text-underline-offset: 3px;
   transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
-  word-break: break-all;
+  word-break: normal;
+  overflow-wrap: break-word;
+  display: inline;
   cursor: pointer;
 }
 
